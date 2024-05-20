@@ -1,0 +1,192 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Login In The Web Application",
+        "description": "",
+        "id": "ordering-dress-in-gooutdoor-web-application;user-login-in-the-web-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88763622000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch the web application",
+            "match": {
+              "location": "OutdoorStep.userLaunchTheWebApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 243198900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user accepting the cookies",
+            "match": {
+              "location": "OutdoorStep.userAcceptingTheCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10837549900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login in the gooutdoor",
+            "match": {
+              "location": "OutdoorStep.userLoginInTheGooutdoor()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "User adding the dress in Add to cart",
+        "description": "",
+        "id": "ordering-dress-in-gooutdoor-web-application;user-adding-the-dress-in-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5073812500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Selecting the Jacket section in the Men\u0027s Section and it\u0027s navigated to Mens dress section",
+            "match": {
+              "location": "OutdoorStep.userSelectingTheJacketSectionInTheMenSSectionAndItSNavigatedToMensDressSection()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4874867800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicked the jacket",
+            "match": {
+              "location": "OutdoorStep.userClickedTheJacket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 561524900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selecting the Size of the jacket",
+            "match": {
+              "location": "OutdoorStep.userSelectingTheSizeOfTheJacket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272880100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selecting the Quantity of the jacket",
+            "match": {
+              "location": "OutdoorStep.userSelectingTheQuantityOfTheJacket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5154400600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user adding the Item and checking Out",
+            "match": {
+              "location": "OutdoorStep.userAddingTheItemAndCheckingOut()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Scenario2"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "User placing the order",
+        "description": "",
+        "id": "ordering-dress-in-gooutdoor-web-application;user-placing-the-order",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2634809600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user adding one more quantity",
+            "match": {
+              "location": "OutdoorStep.userAddingOneMoreQuantity()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 307087500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Selecting the Delivery options",
+            "match": {
+              "location": "OutdoorStep.userSelectingTheDeliveryOptions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188729200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user chekingout",
+            "match": {
+              "location": "OutdoorStep.userChekingout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@Scenario3"
+          }
+        ]
+      }
+    ],
+    "name": "Ordering dress in GoOutdoor web application",
+    "description": "",
+    "id": "ordering-dress-in-gooutdoor-web-application",
+    "keyword": "Feature",
+    "uri": "outdoor.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Scenario1"
+      }
+    ]
+  }
+]
